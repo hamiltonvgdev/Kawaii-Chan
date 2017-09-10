@@ -6,6 +6,23 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
   </build>
+
+<properties>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+<repositories>
+    <repository>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+        <id>bintray-dv8fromtheworld-maven</id>
+        <name>bintray</name>
+        <url>http://dl.bintray.com/dv8fromtheworld/maven</url>
+    </repository>
+</repositories>
+
   <dependencies>
   	<dependency>
   		<groupId>org.jsoup</groupId>
