@@ -20,7 +20,8 @@
     		<type>jar</type>
     		<scope>compile</scope>
   	</dependency>	
-	<build>
+  </dependencies>
+
 <build>
   <plugins>
     <plugin>
@@ -55,5 +56,4 @@
   </plugins>
 </build>
 
-  </dependencies>
 </project>
