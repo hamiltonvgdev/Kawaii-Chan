@@ -60,6 +60,14 @@
     		<type>jar</type>
     		<scope>compile</scope>
   	</dependency>	
+  	
+  	<!-- https://mvnrepository.com/artifact/net.dv8tion/JDA -->
+	<dependency>
+    	<groupId>net.dv8tion</groupId>
+   	 	<artifactId>JDA</artifactId>
+   	 	<version>1.2.2_139</version>
+	</dependency>
+  	
   </dependencies>
 
 	<repositories>
