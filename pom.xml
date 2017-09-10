@@ -52,22 +52,21 @@
   		<artifactId>jsoup</artifactId>
   		<version>1.9.1</version>
   	</dependency>
-
-	<dependency>
-    		<groupId>net.dv8tion</groupId>
-    		<artifactId>JDA</artifactId>
-   		 	<version>3.3.0_264</version>
-    		<type>jar</type>
-    		<scope>compile</scope>
-  	</dependency>	
   	
-  	<!-- https://mvnrepository.com/artifact/net.dv8tion/JDA -->
 	<dependency>
     	<groupId>net.dv8tion</groupId>
-   	 	<artifactId>JDA</artifactId>
-   	 	<version>1.2.2_139</version>
+    	<artifactId>JDA</artifactId>
+    	<version>3.1.1_219</version>
 	</dependency>
   	
   </dependencies>
+
+	<repositories>
+		<repository>
+    		<id>jcenter</id>
+    		<name>jcenter-bintray</name>
+    		<url>http://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
 
 </project>
