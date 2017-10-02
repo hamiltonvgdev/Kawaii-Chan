@@ -1,1 +1,1 @@
-worker: sh src/Core/Core
+worker: sh src/Core/Core.java
