@@ -1,1 +1,1 @@
-worker: src.Core.Core.java
+worker: Core.java
