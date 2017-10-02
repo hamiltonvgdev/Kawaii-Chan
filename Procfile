@@ -1,1 +1,1 @@
-worker: sh target/bin/Core
+worker: sh src/Core/Core
